@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+hr{
+    margin: auto;
+    width: 100%;
+    border: 1px solid grey ;
+}
+
+.enter{
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    width: 15rem;
+    
+}
+
+button{
+    padding: 10px 16px;
+    background-color: burlywood;
+    border: 1px solid grey;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:disabled{
+    cursor:not-allowed;
+}
+
+
